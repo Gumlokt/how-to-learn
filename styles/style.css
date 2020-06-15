@@ -15,9 +15,7 @@
 }
 
 .title_centered {
-  box-sizing: border-box;
   text-align: center;
-  width: 60%;
 }
 
 .header {
@@ -189,6 +187,7 @@
 
 .section-title {
   margin: 0;
+  width: 60%;
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
@@ -196,6 +195,7 @@
 
 .section-subtitle {
   margin: 20px 0 0;
+  width: 60%;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -226,6 +226,59 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+}
+
+
+
+
+
+
+/* Feynman */
+
+.feynman {
+  min-height: 791px;
+  padding-top: 100px;
+  background-color: #f2f2f2;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.feynman__title {
+  width: 648px;
+  margin: 0 auto;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  z-index: 10;
+}
+
+.feynman__subtitle {
+  margin: 70px auto 0;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 10;
+}
+
+.feynman__link {
+  height: 51px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  right: 40px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__photo {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 
