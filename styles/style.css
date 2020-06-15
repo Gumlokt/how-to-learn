@@ -1,8 +1,3 @@
-.br { border: 1px solid red; }
-.bb { border: 1px solid lightblue; }
-.bg { border: 1px solid green; }
-.bgg { background-color: #abc;}
-
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -209,7 +204,7 @@
 }
 
 .table__cell {
-  padding: 0;
+  z-index: 10;
 }
 
 .table__heading {
@@ -281,6 +276,55 @@
   left: 0;
 }
 
+
+
+
+
+
+
+/* Kaufman */
+
+.kaufman {
+  background-color: #1f1f1f;
+  position: relative;
+  padding: 90px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.section-title_theme_dark {
+  color: #fff;
+}
+
+.section-subtitle_theme_dark {
+  color: #fff;
+}
+
+.table_theme_dark {
+  color: #fff;
+}
+
+.table__cell_theme_dark {
+  color: #fff;
+}
+
+.table__heading_theme_dark {
+  color: #fff;
+}
+
+.table__text_theme_dark {
+  color: #fff;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  width: 877px;
+  height: 877px;
+  top: 0;
+  right: -210px;
+}
 
 
 
